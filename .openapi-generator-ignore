@@ -1,0 +1,14 @@
+# Files the generator must not write (ADR 0039): our own package metadata, README, helpers and tests, and
+# build/CI files for tools we do not use.
+README.md
+git_push.sh
+.travis.yml
+.gitlab-ci.yml
+.github/**
+appveyor.yml
+.gitignore
+composer.json
+phpunit.xml.dist
+lib/Helpers/**
+test/**
+.php-cs-fixer.dist.php
